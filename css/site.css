@@ -25,9 +25,12 @@ body {
 #mainTitle {
 	font-size: 50px;
 	margin-left: 40px;
+	color: black;
+	text-decoration: none;
+	margin-bottom: 20px;
 }
 
-#mainDescription {
+#mainArticle p {
 	font-size: 20px;
 	margin-left: 160px;
 }
@@ -44,4 +47,11 @@ body {
 .article-container img {
 	width: 450px;
 	height: 230px;
+}
+
+.article-container a {
+	color: black;
+	text-decoration: none;
+	display: block;
+	width: 450px;
 }
